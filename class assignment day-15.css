@@ -1,0 +1,258 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+/* default css*/
+
+.clear-fix::after{
+content: "";
+display: block;
+clear: both;
+}
+
+.fixed-width{
+    width: 1280px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* header-section */
+
+.header{
+background-color: #22c3a3;
+}
+.header-left{
+float: left;
+width: 30%;
+}
+.header-left h1{
+    margin-top: 15px;
+    color: white;
+}
+
+.header-right{
+    float: left;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    line-height:70px ;
+   font-size: 20px;
+   color: white;
+  
+}
+
+/* banner-secton */
+
+.banner{
+    text-align: center;
+    background-image: url(./header-bg01.jpg);
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    padding: 250px;
+    margin-left: -200px;
+}
+.main-banner h1{
+    color: white;
+    font-size: 50px;
+   
+}
+.main-banner h3{
+    color: white;
+    margin-top: 5px;
+}
+.main-banner a{
+    text-decoration: none;
+    color: white;
+    /* background-color:#d8d2cc ; */
+    padding: 10px 25px;
+    display: inline-block;
+    border: 2px solid rgb(233, 228, 228);
+    margin-top: 40px;
+}
+
+/* about */
+
+
+.service-item{
+    text-align: center;
+    margin-top: 50px;
+}
+.service-item p{
+    margin-top: 20px;
+}
+
+
+/* service */
+
+.service{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.item{
+    float: left;
+   width: 100%;
+}
+.item span{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color:#0bbf9a;
+    font-size: 40px;
+}
+.item h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.item p{
+margin-top: 20px;
+margin-bottom: 100px;
+
+}
+
+.item{
+    float: left;
+   width: 25%;
+}
+
+.item{
+    float: left;
+   width: 25%;
+}
+
+.item{
+    float: left;
+   width: 25%;
+}
+hr{
+    background-color: #0dbb98;
+    height: 2px;
+}
+
+
+/* another-about */
+.service-item2{
+    text-align: center;
+    margin-top: 50px;
+}
+.service-item2 p{
+    margin-top: 20px;
+}
+
+/* content */
+.about{
+    margin-top: 100px;
+}
+
+.about-img{
+    float: left;
+    width: 50%;
+}
+.about-content{
+float: right;
+    width: 50%;
+}
+
+.content p{
+margin-top: 15px;
+font-family: font-family: 'Open Sans', sans-serif;;
+}
+
+.content h2{
+    margin-top: 15px;
+    }
+    
+    /* contact */
+
+.contact{
+    margin-top: 100px;
+    background-color: #f6f6f6;
+}
+
+
+
+.service-item3{
+    text-align: center;
+  
+
+}
+.service-item3 p{
+    margin-top: 25px;
+}
+
+.contact{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.contact-list{
+    float: left;
+    width: 33.3%;
+    margin-top: 35px;
+}
+.contact-list span{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    color:#0bbf9a;
+    font-size: 30px;
+   margin: auto;
+}
+.contact-list{
+    float: left;
+    width: 33.3%;
+}
+.contact-list{
+    float: left;
+    width: 33.3%;
+   
+}
+
+/* footer */
+
+
+
+.menu{
+    text-align: center;
+    background-color: #0bbf9a;
+    padding: 20px 30px;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* khotom */
+
+.khotom{
+    padding: 10px 18px;
+    background-color:black ;
+    color: wheat;
+    text-align: center;
+}
